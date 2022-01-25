@@ -1,0 +1,26 @@
+nom = input("Quel est votre nom ? ")
+age = input("Quel est votre age ? ")
+
+
+try:
+    conv_age = int(age) + 1
+except:
+    print("ERREUR : Veuillez taper un nombre")
+else:
+    print("Mon nom est " + nom + " et j'ai " + age + " ans.")
+    print("L'année prochaine vous aurez " + str(conv_age) + " ans")
+
+mdp = input("Creez un mot de passe : ")
+entre_mdp = input("Entrez mot de passe")
+
+while not entre_mdp == mdp :
+         tape_mdp = input("Mot de passe invalide ! Entrez votre mot de passe : ")
+         if tape_mdp == mdp :
+             print("Vous êtes connecté...")
+             break
+
+
+
+
+
+
